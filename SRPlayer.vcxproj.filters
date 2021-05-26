@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="sample_common\src\vm\atomic.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\avc_bitstream.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\avc_nal_spl.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\avc_spl.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\base_allocator.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\d3d_allocator.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\d3d_device.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\d3d11_allocator.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\d3d11_device.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\decode_render.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\general_allocator.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\vm\time.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\sysmem_allocator.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_player\opencl_filter.cpp">
+      <Filter>simple_palyer</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_player\opencl_filter_dx11.cpp">
+      <Filter>simple_palyer</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_player\simple_player.cpp">
+      <Filter>simple_palyer</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_common\src\sample_utils.cpp">
+      <Filter>sample_common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="simple_player\logger.h">
+      <Filter>simple_palyer</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_player\common.hpp">
+      <Filter>simple_palyer</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_player\opencl_filter.h">
+      <Filter>simple_palyer</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_player\opencl_filter_dx11.h">
+      <Filter>simple_palyer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="simple_player\convert.cl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sample_common">
+      <UniqueIdentifier>{1d5176e7-b75b-4f7a-9d6f-aad1d890ac83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simple_palyer">
+      <UniqueIdentifier>{5f964bec-d27b-4452-907c-a33f221f6b8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
